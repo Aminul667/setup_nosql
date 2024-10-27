@@ -9,7 +9,7 @@ import handleDuplicateError from "../errors/handleDuplicateError";
 import handleValidationError from "../errors/handleValidationError";
 import handleZodError from "../errors/handleZodError";
 import { TErrorSources } from "../interface/error";
-import { ErrorRequestHandler, NextFunction, Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 
 const globalErrorHandler = (
   err: any,
